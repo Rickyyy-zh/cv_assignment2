@@ -13,7 +13,7 @@ def get_labels(path):
         f_path = path + f
         img = cv2.imread(f_path)
         
-        print(img)
+        # print(img)
 
 print(cv2.__version__)
 
