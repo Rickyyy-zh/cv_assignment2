@@ -1,0 +1,16 @@
+{
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.condaPath": "/home/zhangqi/anaconda3/",
+    "python.autoComplete.extraPaths": [
+        "/home/zhangqi/anaconda3/envs/py37/lib/python3.7",
+        "/home/zhangqi/anaconda3/envs/py37/lib/python3.7/site-packages/",
+        "/home/zhangqi/anaconda3/envs/py37/lib/Scripts/"
+    ],
+    "python.analysis.extraPaths":[
+        "/home/zhangqi/anaconda3/envs/py37/lib/python3.7/site-packages/",
+        "/home/zhangqi/anaconda3/envs/py37/lib/Scripts/"
+    ],
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.completeFunctionParens": true
+}
