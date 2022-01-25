@@ -6,15 +6,18 @@ import torch.nn as nn
 import os
 
 from torchvision import transforms
-path = "train_data/images/"
+
+path = "test/labels/"
 def get_labels(path):
     files = os.listdir(path)
     for f in files:
         f_path = path + f
         img = cv2.imread(f_path)
+        label = img.shape
+        print(label)
         
-        # print(img)
-
-print(cv2.__version__)
+    
+        
+        # print(type(img))
 
 get_labels(path)
