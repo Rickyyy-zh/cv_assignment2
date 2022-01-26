@@ -11,7 +11,8 @@ from torchvision import transforms
 def train():
     get_labels("./test/")
     data_path = "./test/"
-    test_github_ssh
+
+    test = 1
     pass
 
 
