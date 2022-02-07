@@ -1,8 +1,10 @@
 # UCAS CV Assignment 2 煤矸石分割任务
 
-github rep: rickyyy-zh/cv_assignment2 via ssh
-
 ## *Abstract：*
+task demand: 
+
+labels: 0 - background, 1 - coal, 2 - gangue
+
 
 ## **Introduction:**
 

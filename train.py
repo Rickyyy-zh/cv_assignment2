@@ -9,10 +9,6 @@ from utils import get_labels
 from torchvision import transforms
 
 def train():
-    get_labels("./test/")
-    data_path = "./test/"
-
-    test = 1
     pass
 
 
