@@ -38,11 +38,11 @@ class Coal_dataset(Dataset):
         image_index = self.images[index]
         img_path = os.path.join(self.root_dir, image_index)
         img = cv2.imread(img_path)
-        label = get_labels(img_path.replace("images", "labels"))
+        label = get_labels(img_path.replace("images", "labels").replace("jpg", "png"))
         sample = {'image':img,'label':label}
         
         if self.transform:
-            sample = self.transform(sample)#对样本进行变换
+            sample["image"] = self.transform(sample["image"])#对样本进行变换
         return sample #返回该样本
 
 test = get_labels(path)

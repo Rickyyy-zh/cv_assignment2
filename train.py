@@ -1,3 +1,4 @@
+from cv2 import imshow
 import numpy as np
 import cv2
 import torch
@@ -16,19 +17,28 @@ def train():
     print("The device is ", device)
 
     data_transform = {
-        "train": transforms.Compose([transforms.RandomResizedCrop(224),
-                                    transforms.RandomHorizontalFlip(),
-                                    transforms.ToTensor(),
-                                    transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])]),
+        "train": transforms.Compose([
+                                    transforms.RandomHorizontalFlip()
+                                    # transforms.ToTensor(),
+                                    # transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+                                    ]),
 
         "val": transforms.Compose([ transforms.ToTensor(),
                                     transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])])
     }
     
-    images_path = "./test/"
+    images_path = "./train_data/images/"
     train_dataset = Coal_dataset(root_dir= images_path, transform= data_transform["train"])
     train_data_num = len(train_dataset)
+    
+    # test=train_dataset[1]
+    # cv2.imshow("test",test["image"])
+    # cv2.waitKey(0)
+    # print(test["label"])
+
     print(train_data_num)
+
+    
 
 if __name__ == "__main__":
     train()
