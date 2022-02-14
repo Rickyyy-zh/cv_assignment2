@@ -2,7 +2,7 @@ from cv2 import imshow
 from matplotlib.pyplot import axis
 import numpy as np
 import cv2
-from sklearn.metrics import label_ranking_average_precision_score
+# from sklearn.metrics import label_ranking_average_precision_score
 import torch
 import torchvision
 import torch.nn as nn
@@ -17,10 +17,10 @@ path = "test/labels/1.png"
 def get_labels(path):
 
     img = cv2.imread(path)
-    label = np.zeros(img.shape[:2])
-    label[np.all(img == np.array((0,0,0)),axis=-1)] = 0   # backgroud
-    label[np.all(img == np.array((0,0,128)),axis=-1)] = 1     # coal
-    label[np.all(img == np.array((0,128,0)),axis=-1)] = 2     # gangue
+    label = np.zeros(img.shape)
+    label[np.all(img == np.array((0,0,0)),axis=-1)] = np.array((1,0,0))   # backgroud
+    label[np.all(img == np.array((0,0,128)),axis=-1)] = np.array((0,1,0))     # coal
+    label[np.all(img == np.array((0,128,0)),axis=-1)] = np.array((0,0,1))     # gangue
     
     return label
         

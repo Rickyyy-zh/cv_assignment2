@@ -8,7 +8,8 @@ import os
 from torchvision import transforms
 from torch.utils.data import DataLoader, Dataset
 from utils import Coal_dataset, get_labels
-from model import Res34net
+from model import Res34net,Res18_segNet
+
 
 from torchvision import transforms
 
@@ -37,7 +38,11 @@ def train():
     # print(test["label"])
 
     print(train_data_num)
-
+    # input data size is 852*480
+    
+    model = Res18_segNet()
+    y = model(torch.randn(8,3,224,224))
+    print(y.size())
     
 
 if __name__ == "__main__":
