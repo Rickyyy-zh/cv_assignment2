@@ -45,4 +45,5 @@ class Coal_dataset(Dataset):
             sample["image"] = self.transform(sample["image"])#对样本进行变换
         return sample #返回该样本
 
+
 test = get_labels(path)

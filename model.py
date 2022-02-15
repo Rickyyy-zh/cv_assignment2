@@ -84,10 +84,10 @@ class DeBasicBlock(nn.Module):
     def __init__(self, in_channels, out_channels, stride=1):
         super().__init__()
         self.deresidual_function = nn.Sequential(
-            nn.ConvTranspose2d(in_channels, out_channels, kernel_size = 3, stride = stride, padding=1, bias=False),
+            nn.ConvTranspose2d(in_channels, out_channels, kernel_size = 3, stride = stride, padding=2, bias=False),
             nn.BatchNorm2d(out_channels),
             nn.ReLU(inplace=True),
-            nn.ConvTranspose2d(out_channels, out_channels * DeBasicBlock.expansion, kernel_size = 3, stride = 1, padding=1, bias=False),
+            nn.ConvTranspose2d(out_channels, out_channels * DeBasicBlock.expansion, kernel_size = 3, stride = 1, padding=2, bias=False),
             nn.BatchNorm2d(out_channels*DeBasicBlock.expansion)
         )
         
@@ -124,15 +124,57 @@ class Res_segNet(nn.Module):
         self.conv5_x = self._make_layer(block, 512, num_block[3], 2)
         self.avg_pool = nn.AdaptiveAvgPool2d((1, 1))
         # self.fc = nn.Linear(512 * block.expansion, num_classes)
-        self.conv6_x = self._make_layer(deblock, 512, num_block[3], 2)
-        self.conv7_x = self._make_layer(deblock, 256, num_block[2], 2)
-        self.conv8_x = self._make_layer(deblock, 128, num_block[1], 2)
-        self.conv9_x = self._make_layer(deblock, 64, num_block[0], 1)
+        self.conv_mid = nn.Sequential(nn.Conv2d(512,512, kernel_size=1,bias=False),
+            nn.ReLU(inplace=True)
+            )
+        self.conv6_x = nn.Sequential(
+            nn.ConvTranspose2d(512, 512, kernel_size=3,stride=1,padding=0),
+            nn.ReLU(inplace=True),
+            nn.Upsample(scale_factor=2),
+            nn.ConvTranspose2d(512, 256, kernel_size=3,stride=1,padding=0),
+            nn.ReLU(inplace=True),
+            nn.ConvTranspose2d(256, 256, kernel_size=3,stride=1,padding=0),
+            nn.ReLU(inplace=True),
+            nn.Upsample(scale_factor=2),
+            nn.BatchNorm2d(256),
+            nn.ConvTranspose2d(256, 256, kernel_size=3,stride=1,padding=0),
+            nn.ReLU(inplace=True)
+        )
+        self.conv7_x = nn.Sequential(
+            nn.ConvTranspose2d(256, 256, kernel_size=3,stride=1,padding=0),
+            nn.ReLU(inplace=True),
+            nn.Upsample(scale_factor=2),
+            nn.ConvTranspose2d(256, 128, kernel_size=3,stride=1,padding=0),
+            nn.ReLU(inplace=True),
+            nn.ConvTranspose2d(128, 128, kernel_size=3,stride=1,padding=0),
+            nn.ReLU(inplace=True),
+            nn.Upsample(scale_factor=2),
+            nn.BatchNorm2d(128),
+            nn.ConvTranspose2d(128, 128, kernel_size=3,stride=1,padding=0),
+            nn.ReLU(inplace=True)
+        )
+        self.conv8_x = nn.Sequential(
+            nn.ConvTranspose2d(128, 128, kernel_size=3,stride=1,padding=0),
+            nn.ReLU(inplace=True),
+            nn.Upsample(scale_factor=2),
+            nn.ConvTranspose2d(128, 64, kernel_size=3,stride=1,padding=0),
+            nn.ReLU(inplace=True),
+            nn.ConvTranspose2d(64, 64, kernel_size=3,stride=1,padding=0),
+            nn.ReLU(inplace=True),
+            nn.Upsample(scale_factor=2),
+            nn.BatchNorm2d(64),
+            nn.ConvTranspose2d(64, 64, kernel_size=3,stride=1,padding=0),
+            nn.ReLU(inplace=True)
+        )
         self.pixel_class_x = nn.Sequential(
-            nn.Conv2d(64, 3, kernel_size=1, padding=0, bias=False),
+            nn.Conv2d(64, 64, kernel_size=3, padding=0, bias=False),
+            nn.BatchNorm2d(64),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(64, 3, kernel_size=3, padding=0, bias=False),
             nn.BatchNorm2d(3),
             nn.ReLU(inplace=True),
         )
+        self.softmax = nn.Sequential(nn.Softmax(1))
     def _make_layer(self, block, out_channels, num_blocks, stride):
         """make resnet layers(by layer i didnt mean this 'layer' was the
         same as a neuron netowork layer, ex. conv layer), one layer may
@@ -165,12 +207,12 @@ class Res_segNet(nn.Module):
         output = self.avg_pool(output)
         # output = output.view(output.size(0), -1)
         # output = self.fc(output)
+        output = self.conv_mid(output)
         output = self.conv6_x(output)
         output = self.conv7_x(output)
         output = self.conv8_x(output)
-        output = self.conv9_x(output)
         output = self.pixel_class_x(output)
-
+        output = self.softmax(output)
         return output
 
 def Res18_segNet():

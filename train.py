@@ -42,8 +42,9 @@ def train():
     
     model = Res18_segNet()
     y = model(torch.randn(8,3,224,224))
-    print(y.size())
-    
+
+
+
 
 if __name__ == "__main__":
     train()
