@@ -11,16 +11,23 @@ import os
 
 from torchvision import transforms
 from torch.utils.data import DataLoader, Dataset
+from PIL import Image
 
 path = "test/labels/1.png"
 
 def get_labels(path):
 
     img = cv2.imread(path)
+    
+    img = img[:,:,::-1].copy()
+    img = cv2.resize(img, (438,438))
     label = np.zeros(img.shape)
     label[np.all(img == np.array((0,0,0)),axis=-1)] = np.array((1,0,0))   # backgroud
     label[np.all(img == np.array((0,0,128)),axis=-1)] = np.array((0,1,0))     # coal
     label[np.all(img == np.array((0,128,0)),axis=-1)] = np.array((0,0,1))     # gangue
+    # label = Image.fromarray(np.uint8(label))
+    
+    label = label.transpose(2, 0, 1)
     
     return label
         
@@ -38,6 +45,8 @@ class Coal_dataset(Dataset):
         image_index = self.images[index]
         img_path = os.path.join(self.root_dir, image_index)
         img = cv2.imread(img_path)
+        img = img[:,:,::-1].copy()
+        # img = Image.fromarray(np.uint8(img))
         label = get_labels(img_path.replace("images", "labels").replace("jpg", "png"))
         sample = {'image':img,'label':label}
         
