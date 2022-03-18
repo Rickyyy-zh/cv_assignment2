@@ -1,0 +1,1504 @@
+The device is  cuda:2
+torch.Size([4, 3, 384, 384])
+using 200 images for training, 36 images for validation.
+  0%|          | 0/50 [00:00<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s][A[epoch 1] train_loss: 0.863  val_accuracy: 0.918  val_loss: 0.681
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [1/300]  loss:0.500:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[1/300]:   0%|          | 0/9 [00:47<?, ?it/s]
+[epoch 2] train_loss: 0.682  val_accuracy: 0.921  val_loss: 0.633
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [2/300]  loss:0.637:   0%|          | 0/50 [00:46<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[2/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 3] train_loss: 0.666  val_accuracy: 0.921  val_loss: 0.624
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [3/300]  loss:0.640:   0%|          | 0/50 [00:46<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[3/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 4] train_loss: 0.652  val_accuracy: 0.925  val_loss: 0.622
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [4/300]  loss:0.697:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[4/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 5] train_loss: 0.642  val_accuracy: 0.925  val_loss: 0.622
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [5/300]  loss:0.585:   0%|          | 0/50 [00:46<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[5/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 6] train_loss: 0.629  val_accuracy: 0.929  val_loss: 0.617
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [6/300]  loss:0.626:   0%|          | 0/50 [00:46<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[6/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 7] train_loss: 0.637  val_accuracy: 0.929  val_loss: 0.617
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [7/300]  loss:0.591:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[7/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 8] train_loss: 0.646  val_accuracy: 0.927  val_loss: 0.619
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [8/300]  loss:0.693:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[8/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 9] train_loss: 0.626  val_accuracy: 0.932  val_loss: 0.612
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [9/300]  loss:0.711:   0%|          | 0/50 [00:46<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[9/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 10] train_loss: 0.631  val_accuracy: 0.932  val_loss: 0.612
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [10/300]  loss:0.538:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[10/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 11] train_loss: 0.624  val_accuracy: 0.932  val_loss: 0.611
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [11/300]  loss:0.623:   0%|          | 0/50 [00:46<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[11/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 12] train_loss: 0.612  val_accuracy: 0.930  val_loss: 0.613
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [12/300]  loss:0.551:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[12/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 13] train_loss: 0.630  val_accuracy: 0.932  val_loss: 0.610
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [13/300]  loss:0.542:   0%|          | 0/50 [00:46<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[13/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 14] train_loss: 0.608  val_accuracy: 0.932  val_loss: 0.610
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [14/300]  loss:0.463:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[14/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 15] train_loss: 0.616  val_accuracy: 0.932  val_loss: 0.609
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [15/300]  loss:0.601:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[15/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 16] train_loss: 0.615  val_accuracy: 0.934  val_loss: 0.609
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [16/300]  loss:0.531:   0%|          | 0/50 [00:46<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[16/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 17] train_loss: 0.623  val_accuracy: 0.933  val_loss: 0.608
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [17/300]  loss:0.589:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[17/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 18] train_loss: 0.627  val_accuracy: 0.936  val_loss: 0.608
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [18/300]  loss:0.673:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[18/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 19] train_loss: 0.610  val_accuracy: 0.939  val_loss: 0.607
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [19/300]  loss:0.569:   0%|          | 0/50 [00:46<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[19/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 20] train_loss: 0.620  val_accuracy: 0.945  val_loss: 0.606
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [20/300]  loss:0.648:   0%|          | 0/50 [00:46<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[20/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 21] train_loss: 0.605  val_accuracy: 0.950  val_loss: 0.604
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [21/300]  loss:0.615:   0%|          | 0/50 [00:46<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[21/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 22] train_loss: 0.599  val_accuracy: 0.948  val_loss: 0.605
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [22/300]  loss:0.583:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[22/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 23] train_loss: 0.606  val_accuracy: 0.951  val_loss: 0.603
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [23/300]  loss:0.591:   0%|          | 0/50 [00:46<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[23/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 24] train_loss: 0.606  val_accuracy: 0.946  val_loss: 0.607
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [24/300]  loss:0.625:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[24/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 25] train_loss: 0.609  val_accuracy: 0.953  val_loss: 0.601
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [25/300]  loss:0.595:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[25/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 26] train_loss: 0.611  val_accuracy: 0.947  val_loss: 0.605
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [26/300]  loss:0.594:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[26/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 27] train_loss: 0.601  val_accuracy: 0.952  val_loss: 0.600
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [27/300]  loss:0.572:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[27/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 28] train_loss: 0.602  val_accuracy: 0.951  val_loss: 0.601
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [28/300]  loss:0.541:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[28/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 29] train_loss: 0.602  val_accuracy: 0.951  val_loss: 0.601
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [29/300]  loss:0.616:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[29/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 30] train_loss: 0.598  val_accuracy: 0.952  val_loss: 0.598
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [30/300]  loss:0.544:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[30/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 31] train_loss: 0.601  val_accuracy: 0.949  val_loss: 0.602
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [31/300]  loss:0.536:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[31/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 32] train_loss: 0.601  val_accuracy: 0.953  val_loss: 0.598
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [32/300]  loss:0.638:   0%|          | 0/50 [00:46<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[32/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 33] train_loss: 0.605  val_accuracy: 0.953  val_loss: 0.598
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [33/300]  loss:0.612:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[33/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 34] train_loss: 0.605  val_accuracy: 0.950  val_loss: 0.601
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [34/300]  loss:0.628:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[34/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 35] train_loss: 0.601  val_accuracy: 0.952  val_loss: 0.598
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [35/300]  loss:0.634:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[35/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 36] train_loss: 0.594  val_accuracy: 0.952  val_loss: 0.599
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [36/300]  loss:0.616:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[36/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 37] train_loss: 0.594  val_accuracy: 0.952  val_loss: 0.598
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [37/300]  loss:0.614:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[37/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 38] train_loss: 0.601  val_accuracy: 0.946  val_loss: 0.604
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [38/300]  loss:0.664:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[38/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 39] train_loss: 0.602  val_accuracy: 0.952  val_loss: 0.598
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [39/300]  loss:0.638:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[39/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 40] train_loss: 0.595  val_accuracy: 0.954  val_loss: 0.597
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [40/300]  loss:0.626:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[40/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 41] train_loss: 0.599  val_accuracy: 0.952  val_loss: 0.598
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [41/300]  loss:0.533:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[41/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 42] train_loss: 0.605  val_accuracy: 0.955  val_loss: 0.596
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [42/300]  loss:0.621:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[42/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 43] train_loss: 0.580  val_accuracy: 0.952  val_loss: 0.598
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [43/300]  loss:0.631:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[43/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 44] train_loss: 0.594  val_accuracy: 0.955  val_loss: 0.596
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [44/300]  loss:0.595:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[44/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 45] train_loss: 0.592  val_accuracy: 0.953  val_loss: 0.597
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [45/300]  loss:0.468:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[45/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 46] train_loss: 0.593  val_accuracy: 0.952  val_loss: 0.598
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [46/300]  loss:0.614:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[46/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 47] train_loss: 0.588  val_accuracy: 0.953  val_loss: 0.598
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [47/300]  loss:0.629:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[47/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 48] train_loss: 0.590  val_accuracy: 0.954  val_loss: 0.596
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [48/300]  loss:0.513:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[48/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 49] train_loss: 0.594  val_accuracy: 0.955  val_loss: 0.596
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [49/300]  loss:0.541:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[49/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 50] train_loss: 0.595  val_accuracy: 0.951  val_loss: 0.599
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [50/300]  loss:0.637:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[50/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 51] train_loss: 0.585  val_accuracy: 0.954  val_loss: 0.596
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [51/300]  loss:0.580:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[51/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 52] train_loss: 0.587  val_accuracy: 0.953  val_loss: 0.597
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [52/300]  loss:0.680:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[52/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 53] train_loss: 0.586  val_accuracy: 0.953  val_loss: 0.597
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [53/300]  loss:0.589:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[53/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 54] train_loss: 0.595  val_accuracy: 0.954  val_loss: 0.596
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [54/300]  loss:0.589:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[54/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 55] train_loss: 0.584  val_accuracy: 0.955  val_loss: 0.595
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [55/300]  loss:0.578:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[55/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 56] train_loss: 0.593  val_accuracy: 0.952  val_loss: 0.598
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [56/300]  loss:0.621:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[56/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 57] train_loss: 0.590  val_accuracy: 0.955  val_loss: 0.595
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [57/300]  loss:0.632:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[57/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 58] train_loss: 0.583  val_accuracy: 0.952  val_loss: 0.598
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [58/300]  loss:0.553:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[58/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 59] train_loss: 0.592  val_accuracy: 0.953  val_loss: 0.597
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [59/300]  loss:0.609:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[59/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 60] train_loss: 0.584  val_accuracy: 0.953  val_loss: 0.597
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [60/300]  loss:0.563:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[60/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 61] train_loss: 0.575  val_accuracy: 0.954  val_loss: 0.595
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [61/300]  loss:0.594:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[61/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 62] train_loss: 0.591  val_accuracy: 0.954  val_loss: 0.596
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [62/300]  loss:0.589:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[62/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 63] train_loss: 0.593  val_accuracy: 0.954  val_loss: 0.596
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [63/300]  loss:0.602:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[63/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 64] train_loss: 0.583  val_accuracy: 0.956  val_loss: 0.594
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [64/300]  loss:0.599:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[64/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 65] train_loss: 0.586  val_accuracy: 0.955  val_loss: 0.595
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [65/300]  loss:0.565:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[65/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 66] train_loss: 0.584  val_accuracy: 0.954  val_loss: 0.595
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [66/300]  loss:0.597:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[66/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 67] train_loss: 0.586  val_accuracy: 0.954  val_loss: 0.596
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [67/300]  loss:0.597:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[67/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 68] train_loss: 0.590  val_accuracy: 0.956  val_loss: 0.594
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [68/300]  loss:0.522:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[68/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 69] train_loss: 0.589  val_accuracy: 0.953  val_loss: 0.597
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [69/300]  loss:0.543:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[69/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 70] train_loss: 0.586  val_accuracy: 0.955  val_loss: 0.595
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [70/300]  loss:0.620:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[70/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 71] train_loss: 0.587  val_accuracy: 0.955  val_loss: 0.595
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [71/300]  loss:0.551:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[71/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 72] train_loss: 0.578  val_accuracy: 0.954  val_loss: 0.595
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [72/300]  loss:0.653:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[72/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 73] train_loss: 0.584  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [73/300]  loss:0.565:   0%|          | 0/50 [00:46<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[73/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 74] train_loss: 0.584  val_accuracy: 0.955  val_loss: 0.595
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [74/300]  loss:0.630:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[74/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 75] train_loss: 0.581  val_accuracy: 0.957  val_loss: 0.593
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [75/300]  loss:0.603:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[75/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 76] train_loss: 0.584  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [76/300]  loss:0.569:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[76/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 77] train_loss: 0.578  val_accuracy: 0.956  val_loss: 0.594
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [77/300]  loss:0.635:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[77/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 78] train_loss: 0.582  val_accuracy: 0.958  val_loss: 0.592
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [78/300]  loss:0.533:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[78/300]:   0%|          | 0/9 [00:50<?, ?it/s]
+[epoch 79] train_loss: 0.586  val_accuracy: 0.956  val_loss: 0.594
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [79/300]  loss:0.566:   0%|          | 0/50 [00:50<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[79/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 80] train_loss: 0.577  val_accuracy: 0.952  val_loss: 0.597
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [80/300]  loss:0.579:   0%|          | 0/50 [00:46<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[80/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 81] train_loss: 0.578  val_accuracy: 0.954  val_loss: 0.596
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [81/300]  loss:0.554:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[81/300]:   0%|          | 0/9 [00:49<?, ?it/s]
+[epoch 82] train_loss: 0.576  val_accuracy: 0.956  val_loss: 0.594
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [82/300]  loss:0.544:   0%|          | 0/50 [00:49<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[82/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 83] train_loss: 0.587  val_accuracy: 0.958  val_loss: 0.592
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [83/300]  loss:0.608:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[83/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 84] train_loss: 0.582  val_accuracy: 0.957  val_loss: 0.593
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [84/300]  loss:0.499:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[84/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 85] train_loss: 0.588  val_accuracy: 0.956  val_loss: 0.594
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [85/300]  loss:0.631:   0%|          | 0/50 [00:48<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[85/300]:   0%|          | 0/9 [00:48<?, ?it/s]
+[epoch 86] train_loss: 0.580  val_accuracy: 0.955  val_loss: 0.595
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [86/300]  loss:0.603:   0%|          | 0/50 [00:46<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[86/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 87] train_loss: 0.573  val_accuracy: 0.959  val_loss: 0.591
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [87/300]  loss:0.616:   0%|          | 0/50 [00:48<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[87/300]:   0%|          | 0/9 [00:50<?, ?it/s]
+[epoch 88] train_loss: 0.582  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [88/300]  loss:0.543:   0%|          | 0/50 [00:48<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[88/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 89] train_loss: 0.578  val_accuracy: 0.954  val_loss: 0.596
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [89/300]  loss:0.589:   0%|          | 0/50 [00:46<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[89/300]:   0%|          | 0/9 [00:48<?, ?it/s]
+[epoch 90] train_loss: 0.566  val_accuracy: 0.957  val_loss: 0.593
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [90/300]  loss:0.568:   0%|          | 0/50 [00:49<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[90/300]:   0%|          | 0/9 [00:48<?, ?it/s]
+[epoch 91] train_loss: 0.580  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [91/300]  loss:0.598:   0%|          | 0/50 [00:47<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[91/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 92] train_loss: 0.582  val_accuracy: 0.956  val_loss: 0.594
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [92/300]  loss:0.626:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[92/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 93] train_loss: 0.589  val_accuracy: 0.957  val_loss: 0.593
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [93/300]  loss:0.561:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[93/300]:   0%|          | 0/9 [00:48<?, ?it/s]
+[epoch 94] train_loss: 0.591  val_accuracy: 0.956  val_loss: 0.594
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [94/300]  loss:0.576:   0%|          | 0/50 [00:49<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[94/300]:   0%|          | 0/9 [00:47<?, ?it/s]
+[epoch 95] train_loss: 0.583  val_accuracy: 0.955  val_loss: 0.595
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [95/300]  loss:0.625:   0%|          | 0/50 [00:46<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[95/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 96] train_loss: 0.582  val_accuracy: 0.957  val_loss: 0.593
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [96/300]  loss:0.529:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[96/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 97] train_loss: 0.581  val_accuracy: 0.956  val_loss: 0.594
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [97/300]  loss:0.596:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[97/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 98] train_loss: 0.586  val_accuracy: 0.957  val_loss: 0.593
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [98/300]  loss:0.613:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[98/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 99] train_loss: 0.580  val_accuracy: 0.957  val_loss: 0.593
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [99/300]  loss:0.621:   0%|          | 0/50 [00:47<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[99/300]:   0%|          | 0/9 [00:50<?, ?it/s]
+[epoch 100] train_loss: 0.578  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [100/300]  loss:0.609:   0%|          | 0/50 [00:49<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[100/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 101] train_loss: 0.583  val_accuracy: 0.955  val_loss: 0.595
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [101/300]  loss:0.618:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[101/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 102] train_loss: 0.583  val_accuracy: 0.958  val_loss: 0.592
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [102/300]  loss:0.577:   0%|          | 0/50 [00:47<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[102/300]:   0%|          | 0/9 [00:50<?, ?it/s]
+[epoch 103] train_loss: 0.584  val_accuracy: 0.955  val_loss: 0.595
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [103/300]  loss:0.585:   0%|          | 0/50 [00:49<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[103/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 104] train_loss: 0.580  val_accuracy: 0.958  val_loss: 0.592
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [104/300]  loss:0.589:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[104/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 105] train_loss: 0.584  val_accuracy: 0.956  val_loss: 0.594
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [105/300]  loss:0.521:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[105/300]:   0%|          | 0/9 [00:49<?, ?it/s]
+[epoch 106] train_loss: 0.580  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [106/300]  loss:0.584:   0%|          | 0/50 [00:49<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[106/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 107] train_loss: 0.582  val_accuracy: 0.959  val_loss: 0.592
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [107/300]  loss:0.554:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[107/300]:   0%|          | 0/9 [00:49<?, ?it/s]
+[epoch 108] train_loss: 0.580  val_accuracy: 0.953  val_loss: 0.596
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [108/300]  loss:0.630:   0%|          | 0/50 [00:50<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[108/300]:   0%|          | 0/9 [00:48<?, ?it/s]
+[epoch 109] train_loss: 0.587  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [109/300]  loss:0.583:   0%|          | 0/50 [00:47<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[109/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 110] train_loss: 0.576  val_accuracy: 0.958  val_loss: 0.592
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [110/300]  loss:0.583:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[110/300]:   0%|          | 0/9 [00:50<?, ?it/s]
+[epoch 111] train_loss: 0.579  val_accuracy: 0.956  val_loss: 0.594
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [111/300]  loss:0.603:   0%|          | 0/50 [00:49<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[111/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 112] train_loss: 0.572  val_accuracy: 0.952  val_loss: 0.598
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [112/300]  loss:0.554:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[112/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 113] train_loss: 0.579  val_accuracy: 0.957  val_loss: 0.593
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [113/300]  loss:0.605:   0%|          | 0/50 [00:46<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[113/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 114] train_loss: 0.575  val_accuracy: 0.958  val_loss: 0.592
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [114/300]  loss:0.546:   0%|          | 0/50 [00:47<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[114/300]:   0%|          | 0/9 [00:49<?, ?it/s]
+[epoch 115] train_loss: 0.572  val_accuracy: 0.956  val_loss: 0.594
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [115/300]  loss:0.608:   0%|          | 0/50 [00:48<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[115/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 116] train_loss: 0.576  val_accuracy: 0.958  val_loss: 0.592
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [116/300]  loss:0.588:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[116/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 117] train_loss: 0.570  val_accuracy: 0.958  val_loss: 0.591
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [117/300]  loss:0.568:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[117/300]:   0%|          | 0/9 [00:49<?, ?it/s]
+[epoch 118] train_loss: 0.581  val_accuracy: 0.952  val_loss: 0.597
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [118/300]  loss:0.522:   0%|          | 0/50 [00:49<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[118/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 119] train_loss: 0.577  val_accuracy: 0.959  val_loss: 0.590
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [119/300]  loss:0.579:   0%|          | 0/50 [00:46<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[119/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 120] train_loss: 0.577  val_accuracy: 0.957  val_loss: 0.593
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [120/300]  loss:0.587:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[120/300]:   0%|          | 0/9 [00:48<?, ?it/s]
+[epoch 121] train_loss: 0.572  val_accuracy: 0.958  val_loss: 0.592
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [121/300]  loss:0.604:   0%|          | 0/50 [00:50<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[121/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 122] train_loss: 0.579  val_accuracy: 0.957  val_loss: 0.593
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [122/300]  loss:0.555:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[122/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 123] train_loss: 0.585  val_accuracy: 0.960  val_loss: 0.590
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [123/300]  loss:0.584:   0%|          | 0/50 [00:46<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[123/300]:   0%|          | 0/9 [00:49<?, ?it/s]
+[epoch 124] train_loss: 0.578  val_accuracy: 0.958  val_loss: 0.592
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [124/300]  loss:0.579:   0%|          | 0/50 [00:48<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[124/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 125] train_loss: 0.565  val_accuracy: 0.956  val_loss: 0.593
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [125/300]  loss:0.588:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[125/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 126] train_loss: 0.581  val_accuracy: 0.960  val_loss: 0.590
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [126/300]  loss:0.602:   0%|          | 0/50 [00:47<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[126/300]:   0%|          | 0/9 [00:50<?, ?it/s]
+[epoch 127] train_loss: 0.579  val_accuracy: 0.955  val_loss: 0.594
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [127/300]  loss:0.597:   0%|          | 0/50 [00:49<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[127/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 128] train_loss: 0.577  val_accuracy: 0.959  val_loss: 0.591
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [128/300]  loss:0.619:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[128/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 129] train_loss: 0.581  val_accuracy: 0.958  val_loss: 0.592
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [129/300]  loss:0.598:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[129/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 130] train_loss: 0.578  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [130/300]  loss:0.627:   0%|          | 0/50 [00:47<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[130/300]:   0%|          | 0/9 [00:51<?, ?it/s]
+[epoch 131] train_loss: 0.568  val_accuracy: 0.958  val_loss: 0.592
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [131/300]  loss:0.494:   0%|          | 0/50 [00:49<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[131/300]:   0%|          | 0/9 [00:47<?, ?it/s]
+[epoch 132] train_loss: 0.571  val_accuracy: 0.959  val_loss: 0.591
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [132/300]  loss:0.603:   0%|          | 0/50 [00:48<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[132/300]:   0%|          | 0/9 [00:48<?, ?it/s]
+[epoch 133] train_loss: 0.576  val_accuracy: 0.959  val_loss: 0.591
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [133/300]  loss:0.628:   0%|          | 0/50 [00:46<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[133/300]:   0%|          | 0/9 [00:48<?, ?it/s]
+[epoch 134] train_loss: 0.570  val_accuracy: 0.958  val_loss: 0.592
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [134/300]  loss:0.453:   0%|          | 0/50 [00:49<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[134/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 135] train_loss: 0.573  val_accuracy: 0.959  val_loss: 0.591
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [135/300]  loss:0.601:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[135/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 136] train_loss: 0.575  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [136/300]  loss:0.590:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[136/300]:   0%|          | 0/9 [00:47<?, ?it/s]
+[epoch 137] train_loss: 0.582  val_accuracy: 0.960  val_loss: 0.590
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [137/300]  loss:0.625:   0%|          | 0/50 [00:48<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[137/300]:   0%|          | 0/9 [00:47<?, ?it/s]
+[epoch 138] train_loss: 0.573  val_accuracy: 0.958  val_loss: 0.592
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [138/300]  loss:0.612:   0%|          | 0/50 [00:46<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[138/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 139] train_loss: 0.578  val_accuracy: 0.951  val_loss: 0.598
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [139/300]  loss:0.601:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[139/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 140] train_loss: 0.567  val_accuracy: 0.957  val_loss: 0.593
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [140/300]  loss:0.553:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[140/300]:   0%|          | 0/9 [00:50<?, ?it/s]
+[epoch 141] train_loss: 0.581  val_accuracy: 0.960  val_loss: 0.590
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [141/300]  loss:0.574:   0%|          | 0/50 [00:50<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[141/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 142] train_loss: 0.579  val_accuracy: 0.952  val_loss: 0.598
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [142/300]  loss:0.615:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[142/300]:   0%|          | 0/9 [00:49<?, ?it/s]
+[epoch 143] train_loss: 0.582  val_accuracy: 0.957  val_loss: 0.593
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [143/300]  loss:0.584:   0%|          | 0/50 [00:49<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[143/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 144] train_loss: 0.563  val_accuracy: 0.953  val_loss: 0.597
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [144/300]  loss:0.573:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[144/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 145] train_loss: 0.579  val_accuracy: 0.959  val_loss: 0.592
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [145/300]  loss:0.615:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[145/300]:   0%|          | 0/9 [00:49<?, ?it/s]
+[epoch 146] train_loss: 0.565  val_accuracy: 0.956  val_loss: 0.594
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [146/300]  loss:0.592:   0%|          | 0/50 [00:49<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[146/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 147] train_loss: 0.569  val_accuracy: 0.958  val_loss: 0.592
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [147/300]  loss:0.512:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[147/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 148] train_loss: 0.580  val_accuracy: 0.955  val_loss: 0.594
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [148/300]  loss:0.577:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[148/300]:   0%|          | 0/9 [00:47<?, ?it/s]
+[epoch 149] train_loss: 0.574  val_accuracy: 0.957  val_loss: 0.593
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [149/300]  loss:0.574:   0%|          | 0/50 [00:48<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[149/300]:   0%|          | 0/9 [00:47<?, ?it/s]
+[epoch 150] train_loss: 0.576  val_accuracy: 0.959  val_loss: 0.591
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [150/300]  loss:0.580:   0%|          | 0/50 [00:46<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[150/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 151] train_loss: 0.566  val_accuracy: 0.959  val_loss: 0.591
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [151/300]  loss:0.566:   0%|          | 0/50 [00:46<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[151/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 152] train_loss: 0.569  val_accuracy: 0.959  val_loss: 0.591
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [152/300]  loss:0.591:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[152/300]:   0%|          | 0/9 [00:49<?, ?it/s]
+[epoch 153] train_loss: 0.568  val_accuracy: 0.957  val_loss: 0.593
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [153/300]  loss:0.558:   0%|          | 0/50 [00:49<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[153/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 154] train_loss: 0.563  val_accuracy: 0.958  val_loss: 0.592
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [154/300]  loss:0.587:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[154/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 155] train_loss: 0.582  val_accuracy: 0.959  val_loss: 0.591
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [155/300]  loss:0.575:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[155/300]:   0%|          | 0/9 [00:49<?, ?it/s]
+[epoch 156] train_loss: 0.574  val_accuracy: 0.954  val_loss: 0.595
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [156/300]  loss:0.591:   0%|          | 0/50 [00:50<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[156/300]:   0%|          | 0/9 [00:47<?, ?it/s]
+[epoch 157] train_loss: 0.563  val_accuracy: 0.959  val_loss: 0.591
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [157/300]  loss:0.579:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[157/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 158] train_loss: 0.575  val_accuracy: 0.958  val_loss: 0.592
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [158/300]  loss:0.619:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[158/300]:   0%|          | 0/9 [00:48<?, ?it/s]
+[epoch 159] train_loss: 0.575  val_accuracy: 0.956  val_loss: 0.593
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [159/300]  loss:0.532:   0%|          | 0/50 [00:47<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[159/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 160] train_loss: 0.564  val_accuracy: 0.959  val_loss: 0.591
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [160/300]  loss:0.617:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[160/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 161] train_loss: 0.572  val_accuracy: 0.957  val_loss: 0.593
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [161/300]  loss:0.581:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[161/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 162] train_loss: 0.568  val_accuracy: 0.958  val_loss: 0.592
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [162/300]  loss:0.556:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[162/300]:   0%|          | 0/9 [00:49<?, ?it/s]
+[epoch 163] train_loss: 0.567  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [163/300]  loss:0.600:   0%|          | 0/50 [00:49<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[163/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 164] train_loss: 0.568  val_accuracy: 0.960  val_loss: 0.590
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [164/300]  loss:0.609:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[164/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 165] train_loss: 0.571  val_accuracy: 0.954  val_loss: 0.596
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [165/300]  loss:0.591:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[165/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 166] train_loss: 0.564  val_accuracy: 0.958  val_loss: 0.592
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [166/300]  loss:0.538:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[166/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 167] train_loss: 0.567  val_accuracy: 0.959  val_loss: 0.592
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [167/300]  loss:0.576:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[167/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 168] train_loss: 0.574  val_accuracy: 0.959  val_loss: 0.591
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [168/300]  loss:0.573:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[168/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 169] train_loss: 0.569  val_accuracy: 0.958  val_loss: 0.592
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [169/300]  loss:0.557:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[169/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 170] train_loss: 0.563  val_accuracy: 0.957  val_loss: 0.593
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [170/300]  loss:0.602:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[170/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 171] train_loss: 0.575  val_accuracy: 0.959  val_loss: 0.591
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [171/300]  loss:0.590:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[171/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 172] train_loss: 0.560  val_accuracy: 0.960  val_loss: 0.590
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [172/300]  loss:0.495:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[172/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 173] train_loss: 0.572  val_accuracy: 0.956  val_loss: 0.594
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [173/300]  loss:0.498:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[173/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 174] train_loss: 0.566  val_accuracy: 0.960  val_loss: 0.590
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [174/300]  loss:0.499:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[174/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 175] train_loss: 0.567  val_accuracy: 0.956  val_loss: 0.594
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [175/300]  loss:0.551:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[175/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 176] train_loss: 0.571  val_accuracy: 0.957  val_loss: 0.593
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [176/300]  loss:0.481:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[176/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 177] train_loss: 0.568  val_accuracy: 0.956  val_loss: 0.594
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [177/300]  loss:0.586:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[177/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 178] train_loss: 0.566  val_accuracy: 0.960  val_loss: 0.590
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [178/300]  loss:0.574:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[178/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 179] train_loss: 0.569  val_accuracy: 0.961  val_loss: 0.589
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [179/300]  loss:0.644:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[179/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 180] train_loss: 0.563  val_accuracy: 0.954  val_loss: 0.596
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [180/300]  loss:0.430:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[180/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 181] train_loss: 0.568  val_accuracy: 0.960  val_loss: 0.591
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [181/300]  loss:0.622:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[181/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 182] train_loss: 0.567  val_accuracy: 0.959  val_loss: 0.591
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [182/300]  loss:0.521:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[182/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 183] train_loss: 0.574  val_accuracy: 0.955  val_loss: 0.595
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [183/300]  loss:0.563:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[183/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 184] train_loss: 0.564  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [184/300]  loss:0.505:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[184/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 185] train_loss: 0.567  val_accuracy: 0.959  val_loss: 0.591
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [185/300]  loss:0.531:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[185/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 186] train_loss: 0.556  val_accuracy: 0.956  val_loss: 0.594
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [186/300]  loss:0.607:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[186/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 187] train_loss: 0.568  val_accuracy: 0.958  val_loss: 0.592
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [187/300]  loss:0.603:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[187/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 188] train_loss: 0.570  val_accuracy: 0.959  val_loss: 0.591
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [188/300]  loss:0.480:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[188/300]:   0%|          | 0/9 [00:43<?, ?it/s]
+[epoch 189] train_loss: 0.565  val_accuracy: 0.959  val_loss: 0.591
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [189/300]  loss:0.576:   0%|          | 0/50 [00:43<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[189/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 190] train_loss: 0.552  val_accuracy: 0.959  val_loss: 0.591
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [190/300]  loss:0.501:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[190/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 191] train_loss: 0.581  val_accuracy: 0.956  val_loss: 0.594
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [191/300]  loss:0.575:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[191/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 192] train_loss: 0.569  val_accuracy: 0.955  val_loss: 0.595
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [192/300]  loss:0.593:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[192/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 193] train_loss: 0.571  val_accuracy: 0.959  val_loss: 0.591
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [193/300]  loss:0.552:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[193/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 194] train_loss: 0.574  val_accuracy: 0.955  val_loss: 0.595
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [194/300]  loss:0.560:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[194/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 195] train_loss: 0.568  val_accuracy: 0.956  val_loss: 0.594
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [195/300]  loss:0.527:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[195/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 196] train_loss: 0.571  val_accuracy: 0.958  val_loss: 0.592
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [196/300]  loss:0.583:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[196/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 197] train_loss: 0.565  val_accuracy: 0.959  val_loss: 0.591
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [197/300]  loss:0.595:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[197/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 198] train_loss: 0.561  val_accuracy: 0.958  val_loss: 0.592
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [198/300]  loss:0.577:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[198/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 199] train_loss: 0.567  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [199/300]  loss:0.571:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[199/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 200] train_loss: 0.562  val_accuracy: 0.959  val_loss: 0.591
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [200/300]  loss:0.566:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[200/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 201] train_loss: 0.568  val_accuracy: 0.958  val_loss: 0.592
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [201/300]  loss:0.596:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[201/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 202] train_loss: 0.569  val_accuracy: 0.959  val_loss: 0.591
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [202/300]  loss:0.554:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[202/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 203] train_loss: 0.561  val_accuracy: 0.959  val_loss: 0.591
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [203/300]  loss:0.591:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[203/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 204] train_loss: 0.568  val_accuracy: 0.955  val_loss: 0.595
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [204/300]  loss:0.574:   0%|          | 0/50 [00:43<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[204/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 205] train_loss: 0.558  val_accuracy: 0.959  val_loss: 0.591
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [205/300]  loss:0.564:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[205/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 206] train_loss: 0.560  val_accuracy: 0.955  val_loss: 0.595
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [206/300]  loss:0.595:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[206/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 207] train_loss: 0.563  val_accuracy: 0.958  val_loss: 0.592
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [207/300]  loss:0.534:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[207/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 208] train_loss: 0.566  val_accuracy: 0.958  val_loss: 0.592
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [208/300]  loss:0.529:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[208/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 209] train_loss: 0.567  val_accuracy: 0.957  val_loss: 0.593
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [209/300]  loss:0.611:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[209/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 210] train_loss: 0.563  val_accuracy: 0.960  val_loss: 0.591
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [210/300]  loss:0.595:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[210/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 211] train_loss: 0.569  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [211/300]  loss:0.597:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[211/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 212] train_loss: 0.569  val_accuracy: 0.959  val_loss: 0.590
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [212/300]  loss:0.625:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[212/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 213] train_loss: 0.570  val_accuracy: 0.958  val_loss: 0.592
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [213/300]  loss:0.561:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[213/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 214] train_loss: 0.571  val_accuracy: 0.959  val_loss: 0.591
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [214/300]  loss:0.586:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[214/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 215] train_loss: 0.567  val_accuracy: 0.958  val_loss: 0.592
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [215/300]  loss:0.578:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[215/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 216] train_loss: 0.562  val_accuracy: 0.957  val_loss: 0.593
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [216/300]  loss:0.525:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[216/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 217] train_loss: 0.570  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [217/300]  loss:0.610:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[217/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 218] train_loss: 0.571  val_accuracy: 0.959  val_loss: 0.591
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [218/300]  loss:0.589:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[218/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 219] train_loss: 0.569  val_accuracy: 0.960  val_loss: 0.590
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [219/300]  loss:0.546:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[219/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 220] train_loss: 0.563  val_accuracy: 0.957  val_loss: 0.592
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [220/300]  loss:0.628:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[220/300]:   0%|          | 0/9 [00:48<?, ?it/s]
+[epoch 221] train_loss: 0.566  val_accuracy: 0.959  val_loss: 0.591
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [221/300]  loss:0.591:   0%|          | 0/50 [00:49<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[221/300]:   0%|          | 0/9 [00:51<?, ?it/s]
+[epoch 222] train_loss: 0.573  val_accuracy: 0.957  val_loss: 0.593
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [222/300]  loss:0.580:   0%|          | 0/50 [00:50<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[222/300]:   0%|          | 0/9 [00:49<?, ?it/s]
+[epoch 223] train_loss: 0.568  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [223/300]  loss:0.467:   0%|          | 0/50 [00:49<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[223/300]:   0%|          | 0/9 [00:48<?, ?it/s]
+[epoch 224] train_loss: 0.565  val_accuracy: 0.957  val_loss: 0.592
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [224/300]  loss:0.542:   0%|          | 0/50 [00:47<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[224/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 225] train_loss: 0.561  val_accuracy: 0.956  val_loss: 0.593
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [225/300]  loss:0.575:   0%|          | 0/50 [00:47<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[225/300]:   0%|          | 0/9 [00:50<?, ?it/s]
+[epoch 226] train_loss: 0.568  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [226/300]  loss:0.471:   0%|          | 0/50 [00:50<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[226/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 227] train_loss: 0.556  val_accuracy: 0.963  val_loss: 0.587
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [227/300]  loss:0.587:   0%|          | 0/50 [00:46<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[227/300]:   0%|          | 0/9 [00:47<?, ?it/s]
+[epoch 228] train_loss: 0.558  val_accuracy: 0.957  val_loss: 0.593
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [228/300]  loss:0.566:   0%|          | 0/50 [00:46<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[228/300]:   0%|          | 0/9 [00:49<?, ?it/s]
+[epoch 229] train_loss: 0.561  val_accuracy: 0.961  val_loss: 0.589
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [229/300]  loss:0.525:   0%|          | 0/50 [00:49<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[229/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 230] train_loss: 0.560  val_accuracy: 0.960  val_loss: 0.590
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [230/300]  loss:0.573:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[230/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 231] train_loss: 0.562  val_accuracy: 0.959  val_loss: 0.591
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [231/300]  loss:0.599:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[231/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 232] train_loss: 0.569  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [232/300]  loss:0.612:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[232/300]:   0%|          | 0/9 [00:49<?, ?it/s]
+[epoch 233] train_loss: 0.558  val_accuracy: 0.960  val_loss: 0.590
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [233/300]  loss:0.590:   0%|          | 0/50 [00:49<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[233/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 234] train_loss: 0.566  val_accuracy: 0.959  val_loss: 0.591
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [234/300]  loss:0.490:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[234/300]:   0%|          | 0/9 [00:49<?, ?it/s]
+[epoch 235] train_loss: 0.562  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [235/300]  loss:0.599:   0%|          | 0/50 [00:49<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[235/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 236] train_loss: 0.566  val_accuracy: 0.959  val_loss: 0.591
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [236/300]  loss:0.599:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[236/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 237] train_loss: 0.563  val_accuracy: 0.958  val_loss: 0.592
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [237/300]  loss:0.568:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[237/300]:   0%|          | 0/9 [00:48<?, ?it/s]
+[epoch 238] train_loss: 0.566  val_accuracy: 0.960  val_loss: 0.590
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [238/300]  loss:0.637:   0%|          | 0/50 [00:50<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[238/300]:   0%|          | 0/9 [00:48<?, ?it/s]
+[epoch 239] train_loss: 0.559  val_accuracy: 0.959  val_loss: 0.591
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [239/300]  loss:0.583:   0%|          | 0/50 [00:46<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[239/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 240] train_loss: 0.558  val_accuracy: 0.960  val_loss: 0.590
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [240/300]  loss:0.520:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[240/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 241] train_loss: 0.558  val_accuracy: 0.956  val_loss: 0.594
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [241/300]  loss:0.572:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[241/300]:   0%|          | 0/9 [00:47<?, ?it/s]
+[epoch 242] train_loss: 0.558  val_accuracy: 0.961  val_loss: 0.589
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [242/300]  loss:0.591:   0%|          | 0/50 [00:50<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[242/300]:   0%|          | 0/9 [00:48<?, ?it/s]
+[epoch 243] train_loss: 0.552  val_accuracy: 0.955  val_loss: 0.595
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [243/300]  loss:0.575:   0%|          | 0/50 [00:46<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[243/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 244] train_loss: 0.570  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [244/300]  loss:0.601:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[244/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 245] train_loss: 0.566  val_accuracy: 0.959  val_loss: 0.591
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [245/300]  loss:0.596:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[245/300]:   0%|          | 0/9 [00:49<?, ?it/s]
+[epoch 246] train_loss: 0.569  val_accuracy: 0.959  val_loss: 0.591
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [246/300]  loss:0.578:   0%|          | 0/50 [00:49<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[246/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 247] train_loss: 0.548  val_accuracy: 0.959  val_loss: 0.591
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [247/300]  loss:0.596:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[247/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 248] train_loss: 0.558  val_accuracy: 0.961  val_loss: 0.589
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [248/300]  loss:0.536:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[248/300]:   0%|          | 0/9 [00:47<?, ?it/s]
+[epoch 249] train_loss: 0.563  val_accuracy: 0.960  val_loss: 0.590
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [249/300]  loss:0.571:   0%|          | 0/50 [00:49<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[249/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 250] train_loss: 0.565  val_accuracy: 0.960  val_loss: 0.590
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [250/300]  loss:0.586:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[250/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 251] train_loss: 0.564  val_accuracy: 0.959  val_loss: 0.591
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [251/300]  loss:0.568:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[251/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 252] train_loss: 0.560  val_accuracy: 0.958  val_loss: 0.592
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [252/300]  loss:0.578:   0%|          | 0/50 [00:47<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[252/300]:   0%|          | 0/9 [00:47<?, ?it/s]
+[epoch 253] train_loss: 0.560  val_accuracy: 0.959  val_loss: 0.591
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [253/300]  loss:0.547:   0%|          | 0/50 [00:47<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[253/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 254] train_loss: 0.550  val_accuracy: 0.962  val_loss: 0.588
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [254/300]  loss:0.596:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[254/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 255] train_loss: 0.564  val_accuracy: 0.960  val_loss: 0.590
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [255/300]  loss:0.576:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[255/300]:   0%|          | 0/9 [00:47<?, ?it/s]
+[epoch 256] train_loss: 0.559  val_accuracy: 0.961  val_loss: 0.589
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [256/300]  loss:0.549:   0%|          | 0/50 [00:48<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[256/300]:   0%|          | 0/9 [00:53<?, ?it/s]
+[epoch 257] train_loss: 0.551  val_accuracy: 0.956  val_loss: 0.595
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [257/300]  loss:0.576:   0%|          | 0/50 [00:52<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[257/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 258] train_loss: 0.549  val_accuracy: 0.957  val_loss: 0.593
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [258/300]  loss:0.546:   0%|          | 0/50 [00:46<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[258/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 259] train_loss: 0.566  val_accuracy: 0.960  val_loss: 0.590
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [259/300]  loss:0.568:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[259/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 260] train_loss: 0.553  val_accuracy: 0.959  val_loss: 0.591
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [260/300]  loss:0.577:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[260/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 261] train_loss: 0.562  val_accuracy: 0.957  val_loss: 0.593
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [261/300]  loss:0.593:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[261/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 262] train_loss: 0.562  val_accuracy: 0.959  val_loss: 0.592
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [262/300]  loss:0.555:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[262/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 263] train_loss: 0.552  val_accuracy: 0.957  val_loss: 0.593
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [263/300]  loss:0.481:   0%|          | 0/50 [00:45<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[263/300]:   0%|          | 0/9 [00:46<?, ?it/s]
+[epoch 264] train_loss: 0.563  val_accuracy: 0.956  val_loss: 0.594
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [264/300]  loss:0.596:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[264/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 265] train_loss: 0.564  val_accuracy: 0.960  val_loss: 0.590
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [265/300]  loss:0.579:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[265/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 266] train_loss: 0.567  val_accuracy: 0.956  val_loss: 0.595
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [266/300]  loss:0.609:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[266/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 267] train_loss: 0.561  val_accuracy: 0.962  val_loss: 0.589
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [267/300]  loss:0.564:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[267/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 268] train_loss: 0.558  val_accuracy: 0.961  val_loss: 0.589
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [268/300]  loss:0.592:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[268/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 269] train_loss: 0.562  val_accuracy: 0.961  val_loss: 0.589
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [269/300]  loss:0.606:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[269/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 270] train_loss: 0.556  val_accuracy: 0.962  val_loss: 0.589
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [270/300]  loss:0.592:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[270/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 271] train_loss: 0.553  val_accuracy: 0.958  val_loss: 0.592
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [271/300]  loss:0.599:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[271/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 272] train_loss: 0.560  val_accuracy: 0.959  val_loss: 0.591
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [272/300]  loss:0.568:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[272/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 273] train_loss: 0.560  val_accuracy: 0.957  val_loss: 0.593
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [273/300]  loss:0.521:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[273/300]:   0%|          | 0/9 [00:43<?, ?it/s]
+[epoch 274] train_loss: 0.559  val_accuracy: 0.960  val_loss: 0.590
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [274/300]  loss:0.574:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[274/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 275] train_loss: 0.564  val_accuracy: 0.961  val_loss: 0.590
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [275/300]  loss:0.580:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[275/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 276] train_loss: 0.555  val_accuracy: 0.960  val_loss: 0.591
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [276/300]  loss:0.606:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[276/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 277] train_loss: 0.556  val_accuracy: 0.962  val_loss: 0.588
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [277/300]  loss:0.581:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[277/300]:   0%|          | 0/9 [00:43<?, ?it/s]
+[epoch 278] train_loss: 0.554  val_accuracy: 0.961  val_loss: 0.589
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [278/300]  loss:0.615:   0%|          | 0/50 [00:43<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[278/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 279] train_loss: 0.555  val_accuracy: 0.959  val_loss: 0.591
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [279/300]  loss:0.599:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[279/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 280] train_loss: 0.565  val_accuracy: 0.952  val_loss: 0.599
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [280/300]  loss:0.584:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[280/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 281] train_loss: 0.556  val_accuracy: 0.960  val_loss: 0.590
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [281/300]  loss:0.532:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[281/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 282] train_loss: 0.565  val_accuracy: 0.959  val_loss: 0.591
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [282/300]  loss:0.585:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[282/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 283] train_loss: 0.561  val_accuracy: 0.957  val_loss: 0.593
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [283/300]  loss:0.585:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[283/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 284] train_loss: 0.560  val_accuracy: 0.961  val_loss: 0.590
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [284/300]  loss:0.560:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[284/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 285] train_loss: 0.561  val_accuracy: 0.958  val_loss: 0.592
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [285/300]  loss:0.564:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[285/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 286] train_loss: 0.558  val_accuracy: 0.959  val_loss: 0.591
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [286/300]  loss:0.604:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[286/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 287] train_loss: 0.546  val_accuracy: 0.960  val_loss: 0.590
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [287/300]  loss:0.582:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[287/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 288] train_loss: 0.556  val_accuracy: 0.961  val_loss: 0.589
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [288/300]  loss:0.500:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[288/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 289] train_loss: 0.554  val_accuracy: 0.958  val_loss: 0.592
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [289/300]  loss:0.465:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[289/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 290] train_loss: 0.551  val_accuracy: 0.955  val_loss: 0.595
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [290/300]  loss:0.582:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[290/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 291] train_loss: 0.550  val_accuracy: 0.959  val_loss: 0.591
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [291/300]  loss:0.582:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[291/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 292] train_loss: 0.547  val_accuracy: 0.960  val_loss: 0.591
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [292/300]  loss:0.580:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[292/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 293] train_loss: 0.562  val_accuracy: 0.960  val_loss: 0.591
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [293/300]  loss:0.568:   0%|          | 0/50 [00:43<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[293/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 294] train_loss: 0.559  val_accuracy: 0.960  val_loss: 0.591
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [294/300]  loss:0.608:   0%|          | 0/50 [00:45<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[294/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 295] train_loss: 0.557  val_accuracy: 0.959  val_loss: 0.591
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [295/300]  loss:0.555:   0%|          | 0/50 [00:45<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[295/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 296] train_loss: 0.550  val_accuracy: 0.958  val_loss: 0.593
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [296/300]  loss:0.562:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[296/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 297] train_loss: 0.554  val_accuracy: 0.961  val_loss: 0.589
+  0%|          | 0/50 [00:00<?, ?it/s]train epoch [297/300]  loss:0.527:   0%|          | 0/50 [00:44<?, ?it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][Avalid epoch[297/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 298] train_loss: 0.556  val_accuracy: 0.960  val_loss: 0.590
+
+
+  0%|          | 0/50 [00:00<?, ?it/s][A[Atrain epoch [298/300]  loss:0.523:   0%|          | 0/50 [00:44<?, ?it/s]
+  0%|          | 0/9 [00:00<?, ?it/s]valid epoch[298/300]:   0%|          | 0/9 [00:44<?, ?it/s]
+[epoch 299] train_loss: 0.565  val_accuracy: 0.956  val_loss: 0.594
+
+  0%|          | 0/50 [00:00<?, ?it/s][Atrain epoch [299/300]  loss:0.555:   0%|          | 0/50 [00:44<?, ?it/s]
+
+
+  0%|          | 0/9 [00:00<?, ?it/s][A[Avalid epoch[299/300]:   0%|          | 0/9 [00:45<?, ?it/s]
+[epoch 300] train_loss: 0.562  val_accuracy: 0.957  val_loss: 0.593
+Finished Training
+train epoch [300/300]  loss:0.575:   0%|          | 0/50 [00:45<?, ?it/s]
+valid epoch[300/300]:   0%|          | 0/9 [00:05<?, ?it/s]
